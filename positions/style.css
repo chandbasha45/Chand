@@ -1,0 +1,52 @@
+section{
+    border: 8px solid darkslategray;
+    height: 1200px;
+    width: 2350px;
+ }
+ 
+ h1{
+    
+    margin-right: 10px;
+    background-color: aqua;
+ }
+ div{
+    border: 80px;
+    height: fit-content;
+    width: fit-content;
+ }
+  .static{
+    text-align: center;
+    border: 80px greenyellow;
+    background-color: yellow;
+    position: static;
+    top: 300px;
+    width: 600px;
+    height: 400px;
+    font-size:100px;
+ }
+  .relative{
+    border: 100px green;
+    background-color: lightcoral;
+    position: relative;
+    top: 0px;
+    left: 600px;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    font-size:100px;
+ }
+  .absolute{
+    border: 100px solid darkblue;
+    background-color: darkblue;
+    position: absolute;
+    top: 900px;
+    left: 1200px;
+    right: 600px;
+    width: 400px;
+    height: 800px;
+    text-align: center;
+    font-size: 100px;
+    height: 140px;
+ }
+
+
